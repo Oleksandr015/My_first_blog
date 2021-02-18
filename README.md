@@ -1,68 +1,60 @@
-**Simple blog on Python**
+Simple blog on Python
 
 ---
-****Description***</br>
+***Description***</br>
 This is my first training project written in Python using the Django framework.
 The functionality of the blog includes the ability for authorized users to add articles, comment on them; there is also a personal account for authors.
 To create the front end, I used a simple HTML template.
+---
 
 ****Subject****</br>
 The blog is dedicated to the topic of F1 royal races, as I am a big fan of motorsport. If you are too, you will be pleased to see some funny references in the names of the authors of the article and not only 😊.
 
 ---
- ***Getting Started***
+ Getting Started
  
- Make virtualenv
+ ***Make virtualenv***
 ===============
 
-On Linux::
+>On Linux::
 
    $ python3.6 -m venv venv
    $ . venv/bin/activate
 
-On Windows::
+>On Windows::
 
-   > python -m venv venv
-   > venv/Scripts/activate
+   `python -m venv venv`
+   `venv/Scripts/activate`
 
-Install python
+***Install python***
 ===============
-`Install Python 3.5.2: pyenv install 3.5.2.`
+   `install Python 3.6: pyenv install 3.6`
 
 
-Clone this repository
-===============
-
-::
-
-git clone git@github.com:Oleksandr015/My_first_blog.git
-
-Install requirements
+***Clone this repository***
 ===============
 
-::
+   `git clone git@github.com:Oleksandr015/My_first_blog.git`
+   
 
-   (venv)$ pip install -r requirements.txt
+***Install requirements***
+===============
 
-migrate
+   `(venv)$ pip install -r requirements.txt`
+
+***Migrate***
 =======
 
-::
+   `(venv)$ cd myproject`
+   `(venv)$ python manage.py migrate`
 
-   (venv)$ cd myproject
-   (venv)$ python manage.py migrate
-
-Make admin user
+***Make admin user***
 ===============
 
-::
+   `(venv)$ python manage.py createsuperuser`
 
-   (venv)$ python manage.py createsuperuser
-
-runserver
+***Runserver***
 =========
 
-::
-
-   (venv)$ cd myproject
-   (venv)$ python manage.py runserver
+   `(venv)$ cd myproject`
+   `(venv)$ python manage.py runserver`
