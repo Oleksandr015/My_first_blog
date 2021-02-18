@@ -1,13 +1,13 @@
 **Simple blog on Python**
 
 ---
-****Описание***
-Это мой первый тренировочный проект, написанный на языке Пайтон с использованием фрэймворка Джанго.
-Функционал блога включает в себя возможность авторизированным пользователям добавлять статьи, комментировать их, также имеется личный кабинет для авторов.
-Для создания фронт-энда я использовал простой ХТМЛ шаблон.
+****Description***</br>
+This is my first training project written in Python using the Django framework.
+The functionality of the blog includes the ability for authorized users to add articles, comment on them; there is also a personal account for authors.
+To create the front end, I used a simple HTML template.
 
-****Тематика****
-Блог посвящен теме королевских гонок Ф1, так как я являюсь большим фанатом автоспорта. Если и ты тоже, тебе будет приятно заметить некотоорые забавные отсылки в именах авторов стате и не только=).
+****Subject****</br>
+The blog is dedicated to the topic of F1 royal races, as I am a big fan of motorsport. If you are too, you will be pleased to see some funny references in the names of the authors of the article and not only 😊.
 
 ---
  ***Getting Started***
@@ -27,9 +27,7 @@ On Windows::
 
 Install python
 ===============
-
-::
-Install Python 3.5.2: pyenv install 3.5.2.
+`Install Python 3.5.2: pyenv install 3.5.2.`
 
 
 Clone this repository
