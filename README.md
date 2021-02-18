@@ -1,19 +1,24 @@
-*Simple blog on Python*
+*****Simple blog on Python*****
 
 ---
-**Description**</br>
+*****Description*****</br>
+
+
 This is my first training project written in Python using the Django framework.
 The functionality of the blog includes the ability for authorized users to add articles, comment on them; there is also a personal account for authors.
 To create the front end, I used a simple HTML template.
+
 ---
 
-**Subject**</br>
+*****Subject******</br>
+
+
 The blog is dedicated to the topic of F1 royal races, as I am a big fan of motorsport. If you are too, you will be pleased to see some funny references in the names of the authors of the article and not only 😊.
 
 ---
  Getting Started
  
-****Make virtualenv****
+**Make virtualenv**
 ===============
 
 >On Linux::
